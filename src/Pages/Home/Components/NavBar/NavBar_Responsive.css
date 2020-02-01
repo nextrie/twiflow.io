@@ -10,3 +10,29 @@
 		display: none;
 	}
 }
+
+@media screen and (max-width: 400px)
+{
+	.navContainer
+	{
+		height: auto;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	}
+
+	.navContent
+	{
+		padding: 10px;
+		width: 100%;
+		height: auto;
+	}
+
+	.navContent .logo
+	{
+
+	}
+
+	.navContent .roundedLoginButtonContainer
+	{
+
+	}
+}
