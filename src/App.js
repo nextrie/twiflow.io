@@ -25,7 +25,8 @@ class App extends React.Component
 	changePage(pageComponent)
 	{
 		if (pageComponent)
-			this.setState({currentPage: pageComponent});
+			if (pageComponent !== this.state.currentPage)
+				this.setState({currentPage: pageComponent});
 	}
 
 	componentDidMount()

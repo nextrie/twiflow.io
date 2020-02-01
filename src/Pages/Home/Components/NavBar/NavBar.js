@@ -21,7 +21,7 @@ export default class NavBar extends React.Component
 						<a href="#" className="navLink">Features</a>
 						<a href="#" className="navLink">Pricing</a>
 						<a href="#" className="roundedLoginButtonContainer">
-							<div classNam="roundedLoginButtonContent">
+							<div className="roundedLoginButtonContent">
 								Login
 							</div>
 						</a>
