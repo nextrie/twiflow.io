@@ -21,3 +21,10 @@ body
 {
 	background-color: #1DA1F2;
 }
+
+
+.appContainer
+{
+	overflow-x: hidden;
+	width: 100%;
+}

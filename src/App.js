@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
 
-//Networking
-import Connection from "./Networking/Connection";
+//Pages
+import Home from "./Pages/Home/Home.js";
+
+//redux
+import { connect } from 'react-redux';
 
 export default class App extends React.Component
 {
@@ -11,13 +14,13 @@ export default class App extends React.Component
 		super(props);
 
 		this.state = {
-
+			currentPage: null
 		};
 	}
 
 	componentWillMount()
 	{
-		var conn = new Connection("http://localhost", 5000);
+		//this.setState({conn: new Connection("http://localhost", 5000)});
 	}
 
 	componentWillUpdate()
@@ -29,7 +32,7 @@ export default class App extends React.Component
 	{
 		return (
 			<div className="appContainer">
-
+				{this.state.currentPage ? this.state.currentPage : <Home />}
 			</div>
 		);
 	}
