@@ -1,0 +1,12 @@
+.homeContainer
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.homeContent
+{
+	padding-top: 30px;
+	width: 80%;
+}

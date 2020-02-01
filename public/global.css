@@ -1,0 +1,24 @@
+
+body
+{
+	color: #14171A;
+}
+
+//default
+
+.background
+{
+	background-color: white;
+}
+
+//Blue
+
+.coloredText
+{
+	color: #1DA1F2;
+}
+
+.coloredElement
+{
+	background-color: #1DA1F2;
+}

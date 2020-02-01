@@ -9,3 +9,10 @@ export function initSocketConnection()
 		info: "This will create a socket and connect it to the server."
 	}
 }
+
+export function getSocketConnectionState(connection)
+{
+	if (!connection)
+		return "disconnected";
+	return connection.socket.connected ? "connected" : "disconnected";
+}
