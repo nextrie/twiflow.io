@@ -10,6 +10,9 @@ import { Provider } from "react-redux";
 import Connection from "./Networking/Connection";
 import { connectionActionTypes } from "./Networking/ConnectionActions";
 
+//Config
+import Config from "./config/config.json";
+
 const initialState = {
 	networkConnection: null
 }
@@ -19,7 +22,7 @@ const reducer = (state = initialState, action) => {
 	{
 		case connectionActionTypes.INIT_SOCKET_CONNECTION:
 		{
-			var conn = new Connection("http://localhost", 5000);
+			var conn = new Connection(Config.server.ip, Config.server.port);
 			return {...state, networkConnection: conn};
 		}
 
