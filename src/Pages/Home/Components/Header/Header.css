@@ -1,0 +1,68 @@
+.headerContainer
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.headerContent
+{
+	width: 45%;
+	min-height: calc(100vh - 85px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.headerIllustration
+{
+	display: flex;
+	align-items: center;
+	width: 35%;
+}
+
+.headerIllustration img
+{
+	height: auto;
+	width: 100%;
+}
+
+.headerTitle
+{
+	padding-bottom: 20px;
+}
+
+.headerDescription
+{
+	padding-bottom: 30px;
+}
+
+.headerActions
+{
+	display: flex;
+	align-items: center;
+}
+
+.headerActionContainer
+{
+	margin-top: 20px;
+	height: 50px;
+	width: 175px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+.getStarted
+{
+	margin-right: 20px;
+	background-color: #1DA1F2;
+}
+
+.learnMore
+{
+	background-color: #15202B;
+}
