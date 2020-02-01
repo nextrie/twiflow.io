@@ -11,7 +11,7 @@ export default function Header()
 		<div className="headerContainer">
 			<div className="headerContent">
 				<h1 className="headerTitle">
-					Lorem ipsum dolores manana.
+					The future of twitter account management.
 				</h1>
 				<p className="headerDescription">
 					Join TwiFlow, follow your twitter accounts evolution, increase your followers.
