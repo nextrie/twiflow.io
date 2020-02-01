@@ -1,11 +1,19 @@
+.navContainer a
+{
+	text-decoration: none;
+}
+
 .navContainer
 {
+	padding-top: 5px;
+	padding-bottom: 5px;
 	width: 100%;
-	height: 100px;
+	height: 75px;
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
 	justify-content: center;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .navContent
@@ -33,7 +41,7 @@
 {
 	color: #1DA1F2;
 	font-size: 28px;
-	font-weight: normal;
+	font-weight: 500;
 }
 
 
@@ -43,7 +51,33 @@
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	color: #1DA1F2;
 	font-size: 18px;
 	font-weight: bold
+}
+
+.roundedLoginButtonContainer
+{
+	width: 125px;
+	height: 40px;
+	background-color: #1DA1F2;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 25px;
+}
+
+.navLink
+{
+	color: #1DA1F2;
+	border-bottom: 2px solid transparent;
+	-webkit-transition: ease-in-out .2s;
+	-o-transition: ease-in-out .2s;
+	transition: ease-in-out .2s;
+}
+
+.navLink:hover
+{
+	border-bottom: 2px solid #1DA1F2;
 }

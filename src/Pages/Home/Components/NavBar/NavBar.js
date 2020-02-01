@@ -17,10 +17,14 @@ export default class NavBar extends React.Component
 						<h2 className="coloredText">TwiFlow</h2>
 					</div>
 					<div className="navActionContainer">
-						<a>About</a>
-						<a>Features</a>
-						<a>Pricing</a>
-						<a>Login</a>
+						<a href="#" className="navLink">About</a>
+						<a href="#" className="navLink">Features</a>
+						<a href="#" className="navLink">Pricing</a>
+						<a href="#" className="roundedLoginButtonContainer">
+							<div classNam="roundedLoginButtonContent">
+								Login
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
