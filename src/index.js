@@ -8,26 +8,26 @@ import { Provider } from "react-redux";
 
 //Networking
 import Connection from "./Networking/Connection";
+import { connectionActionTypes } from "./Networking/ConnectionActions";
 
 const initialState = {
-	connectionStatus: "disconnected"
+	networkConnection: null
 }
 
 const reducer = (state = initialState, action) => {
-	const newState = [state];
-
 	switch(action.type)
 	{
-		case "ADD":
+		case connectionActionTypes.INIT_SOCKET_CONNECTION:
 		{
-			console.log("added");
+			var conn = new Connection("http://localhost", 5000);
+			return {...state, networkConnection: conn};
 		}
+
+		default: return state;
 	}
 }
 
 const store = createStore(reducer);
-
-
 
 ReactDOM.render(
 	<Provider store={store}>
