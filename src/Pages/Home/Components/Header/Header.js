@@ -2,6 +2,9 @@ import React from 'react';
 import "./Header.css";
 import "./Header_Responsive.css";
 
+//Images
+import HeaderIllustration from "./imgs/headerIllustration.svg";
+
 export default function Header()
 {
 	return (
@@ -27,7 +30,7 @@ export default function Header()
 				</div>
 			</div>
 			<div className="headerIllustration">
-				<img src="" alt="headerIllustration" />
+				<img src={HeaderIllustration} alt="headerIllustration" />
 			</div>
 		</div>
 	);
