@@ -17,7 +17,7 @@ export default class App extends React.Component
 
 	componentWillMount()
 	{
-		var conn = new Connection("", 5000);
+		var conn = new Connection("http://localhost", 5000);
 	}
 
 	componentWillUpdate()
