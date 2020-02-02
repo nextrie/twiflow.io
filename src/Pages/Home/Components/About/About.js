@@ -6,8 +6,8 @@ import "./About_Responsive.css";
 import AboutCard from "./Components/AboutCard";
 
 //Images
-import EasyLogo from "./logo/easy.png";
 import Wave from "./imgs/wave.svg";
+import Organize from "./imgs/organize.svg";
 
 export default class About extends React.Component
 {
@@ -19,17 +19,7 @@ export default class About extends React.Component
 				<h1 className="aboutTitle">Why TwiFlow ?</h1>
 				<div className="aboutCards">
 					<AboutCard
-						illustration={EasyLogo}
-						title="Easy process"
-						description="TwiFlow takes care of all the complicated tasks, just login to your dashboard and start managing your accounts"
-					/>
-					<AboutCard
-						illustration={EasyLogo}
-						title="Easy process"
-						description="TwiFlow takes care of all the complicated tasks, just login to your dashboard and start managing your accounts"
-					/>
-					<AboutCard
-						illustration={EasyLogo}
+						illustration={Organize}
 						title="Easy process"
 						description="TwiFlow takes care of all the complicated tasks, just login to your dashboard and start managing your accounts"
 					/>
