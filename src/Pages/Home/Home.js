@@ -5,6 +5,7 @@ import "./Home_Responsive.css";
 //Components
 import NavBar from "./Components/NavBar/NavBar";
 import Header from "./Components/Header/Header";
+import About from "./Components/About/About";
 
 export default class Home extends React.Component
 {
@@ -16,6 +17,7 @@ export default class Home extends React.Component
 				<div className="homeContainer">
 					<div className="homeContent">
 						<Header />
+						<About />
 					</div>
 				</div>
 			</>

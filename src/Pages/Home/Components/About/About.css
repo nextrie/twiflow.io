@@ -1,0 +1,18 @@
+.aboutContainer
+{
+	width: 100%;
+	min-height: 100vh;
+}
+
+.coloredText
+{
+	color: #1DA1F2;
+}
+
+.aboutCards
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}

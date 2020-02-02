@@ -1,0 +1,15 @@
+.aboutCardContainer
+{
+	height: 400px;
+	width: 300px;
+	margin: 20px;
+	margin-top: 0;
+	border: 2px solid red;
+}
+
+.cardIllustration
+{
+	margin-top: 20px;
+	height: auto;
+	width: 80%;
+}
