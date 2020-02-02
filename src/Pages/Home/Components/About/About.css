@@ -1,7 +1,16 @@
 .aboutContainer
 {
+	position: relative;
 	width: 100%;
-	min-height: 100vh;
+	background-color: #15202B;
+	padding-bottom: 50px;
+}
+
+.sectionWave
+{
+	width: 100%;
+	display: block;
+	max-height: 250px;
 }
 
 .coloredText
@@ -9,8 +18,15 @@
 	color: #1DA1F2;
 }
 
+.aboutTitle
+{
+	text-align: center;
+	color: white;
+}
+
 .aboutCards
 {
+	padding-top: 45px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

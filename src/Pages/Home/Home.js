@@ -17,8 +17,9 @@ export default class Home extends React.Component
 				<div className="homeContainer">
 					<div className="homeContent">
 						<Header />
-						<About />
 					</div>
+					<About />
+
 				</div>
 			</>
 		);
