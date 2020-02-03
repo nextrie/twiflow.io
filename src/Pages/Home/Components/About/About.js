@@ -22,6 +22,19 @@ export default class About extends React.Component
 						illustration={Organize}
 						title="Easy process"
 						description="TwiFlow takes care of all the complicated tasks, just login to your dashboard and start managing your accounts"
+						direction="left"
+					/>
+					<AboutCard
+						illustration={Organize}
+						title="Easy process"
+						description="TwiFlow takes care of all the complicated tasks, just login to your dashboard and start managing your accounts"
+						direction="right"
+					/>
+					<AboutCard
+						illustration={Organize}
+						title="Easy process"
+						description="TwiFlow takes care of all the complicated tasks, just login to your dashboard and start managing your accounts"
+						direction="left"
 					/>
 				</div>
 			</div>

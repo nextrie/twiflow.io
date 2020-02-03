@@ -5,13 +5,14 @@ export default function AboutCard(props)
 {
 	return (
 		<>
-
-			<div className="aboutCardContainer">
-				<div className="aboutCardIllustrationContainer">
+			<div direction={props.direction} className="aboutCardContainer">
+				<div className="aboutCardText">
+					<h2 className="aboutCardTitle">{props.title}</h2>
+					<h3 className="aboutCardDescription secondaryText">{props.description}</h3>
+				</div>
+				<div direction={props.direction} className="aboutCardIllustrationContainer">
 					<img src={props.illustration} alt="cardIllustration" />
 				</div>
-				<h2 className="aboutCardTitle">{props.title}</h2>
-				<h3 className="aboutCardDescription secondaryText">{props.description}</h3>
 			</div>
 		</>
 	);
