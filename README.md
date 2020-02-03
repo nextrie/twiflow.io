@@ -3,7 +3,7 @@ I built this project so i can experience Redux.
 
 ![Landing Page v1](https://i.ibb.co/VWZDkNp/dashboard.png)
 
-### Technologies used
+# Technologies used
 
 ## Front End
 React
