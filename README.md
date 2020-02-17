@@ -1,5 +1,5 @@
 TwiFlow is a twitter multi-account management, analytics, and more.
-I built this project so i can experience Redux.
+I built this project so that i can experience Redux.
 
 ![Landing Page v1](https://i.ibb.co/VWZDkNp/dashboard.png)
 
